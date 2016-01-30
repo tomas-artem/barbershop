@@ -1,0 +1,251 @@
+@font-face {
+  font-family: "Azedo";
+  src: url("../fonts/Azedo-Bold.otf");
+}
+@font-face {
+  font-family: "Born";
+  src: url("../fonts/BORN.ttf");
+}
+*,
+*:after,
+*:before {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+html,
+body {  
+  height: 100%;
+}
+body {
+    font-family: 'Tahoma', 'Arial', sans-serif;
+}
+.container {
+  width: 1400px;
+  padding: 0 20px;
+  margin: 0 auto;
+}
+.clear::after {
+  content: " ";
+  clear: both;
+  display: block;
+}
+header {
+  width: 100%;
+}
+main {
+  width: 1400px;
+  margin: 0 auto;
+}
+.logo-title {
+  height: 90px;
+  line-height: 90px;
+  padding-left: 90px;
+}
+.logo-title .site-logo {
+  float: left;
+}
+.logo-title .site-logo .logo-img {
+  height: 25px; 
+  vertical-align: middle;
+}
+.site-title {
+  float: left;
+  margin-left: 10px;
+  text-transform: uppercase;
+  font-size: 40px;
+  font-family: "Azedo";
+  display: inline-block; 
+}
+.site-menu {
+  float: right;
+  margin-right: 40px;
+  height: 90px;
+  line-height: 90px;
+}
+.site-menu .site-sections {
+  list-style: none;
+  display: inline-block;
+  margin: 0px;
+}
+.site-menu .site-sections .section-nav {
+  float: left;
+  padding: 0 15px;
+}
+
+.site-menu a {
+  color: black;
+  font-size: 18px;
+  text-decoration: none;
+  text-transform: uppercase;
+  height: 30px;
+  line-height: 30px;
+}
+
+.top-slide {
+  height: 695px;
+  background: url("../images/slide_top.jpg");
+  /*background-position: center;*/
+  background-repeat: no-repeat;  
+
+}
+
+.top-slide p {
+  margin: 0px;
+  text-align: center;
+  color: white;
+  font-family: "Verdana";
+}
+.top-slide .slogan-1 {
+  height: 50%;
+  font-size: 60px;
+  text-transform: uppercase; 
+}
+.top-slide .slogan-1 p{
+  padding-top: 300px;
+  /*vertical-align: bottom;*/
+}
+.top-slide .slogan-2 p {
+  font-family: 'Knewave', cursive;
+  font-size: 110px;
+}
+.block-title {
+  margin: 80px 0 40px 0;
+}
+.block-title h2 {
+  margin: 0 140px 0 160px;
+  padding-bottom: 10px;
+  font-size: 24px;
+  text-transform: uppercase; 
+  border-bottom: 3px solid yellow;
+}
+.about-text {
+  padding-left: 150px;
+}
+.about-text-column {
+  width: 28%;
+  float: left;
+  display: inline-block;
+  padding-right: 20px;
+  line-height: 24px;
+  font-size: 14px;
+}
+.first-column {
+  text-transform: uppercase;
+  line-height: 35px;
+  font-size: 35px;
+}
+.first-column p {
+  margin: 0;
+  padding: 0;
+  font-size: 50px;
+}
+.fa-quote-left {
+  color: yellow;
+  
+}
+.about-slide {
+  margin: 90px auto;
+  height: 580px;
+  background: url("../images/slide_about.jpg");
+  background-repeat: no-repeat;  
+}
+.about-slogan {
+  width: 380px;
+  font-size: 40px;
+  float: right;
+  margin-top: 240px;
+}
+.about-slogan p {
+  transform: rotate(270deg);  
+  text-transform: uppercase;
+  color: white;
+  margin-top: 50px;
+  border-bottom: 12px solid yellow;
+}
+.decor {
+  transform: rotate(270deg);  
+  background-color: yellow;
+  height: 10px;
+  margin: 0 40px 0 160px;
+  padding-top: 100px;
+}
+.services-text {
+  margin: 0 100px 0 160px;
+}
+.services-text-column {
+  width: 20%;
+  display: inline-block;
+  float: left;
+  margin-right: 20px;
+}
+.services-text-column h3 {
+  margin-top: 5px;
+  font-size: 40px;
+}
+.menu-footer {
+  background-color: black;
+  color: white;
+}
+.menu-footer a {
+  color: white;
+}
+.lookbook-image {
+  text-align: center;
+}
+.form-main-page {
+  margin-top: 40px;
+  margin-left: 140px;
+  padding-bottom: 40px;
+}
+.form-main-page-side1 {
+  float: left;
+  width: 35%;
+}
+.form-main-page .form-name {
+  display: block;
+  width: 390px;
+  height: 50px;
+  margin-bottom: 30px;
+  padding-left: 10px;
+}
+.form-main-page .form-phone {
+  display: block;
+  width: 390px;
+  height: 50px;
+  margin-bottom: 30px;
+  padding-left: 10px;
+}
+.form-main-page .form-mail {
+  display: block;
+  width: 390px;
+  height: 50px;
+  margin-bottom: 30px;
+  padding-left: 10px;
+}
+.form-main-page .form-date-time {
+  display: block;
+  width: 390px;
+  height: 50px;
+  margin-bottom: 30px;
+  padding-left: 10px;
+}
+.form-main-page .form-button {
+  min-width: 190px;
+  height: 50px;
+  background-color: yellow;
+  color: white;
+  font-size: 22px;
+  font-weight: bold;
+}
+.form-main-page-side2 {
+  float: left;
+}
+.form-main-page-side2 .form-text-area {
+  width: 630px;
+  height: 290px;
+  resize: none;
+  padding-left: 10px;
+}
+
